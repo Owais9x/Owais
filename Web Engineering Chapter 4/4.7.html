@@ -1,0 +1,40 @@
+4.7 Positioning Elements: Relative Positioning, span
+M.Owais Asif 4432
+
+<!DOCTYPE html>
+<!-- Fig. 4.10: positioning2.html -->
+<!-- Relative positioning of elements. --> <html>
+<head>
+<meta charset = "utf-8"> <title>Relative Positioning</title> <style type = "text/css">
+p span
+{ {
+font-size: 1.3em;
+font-family: verdana, arial, sans-serif; } color: red;
+font-size: .6em;
+height: 1em; }
+.super { position: relative; 
+top: -1ex; }
+.sub { position: relative;
+bottom: -1ex; }
+.shiftleft { position: relative;
+left: -1ex; }
+.shiftright { position: relative;
+right: -1ex; }
+      </style>
+   </head>
+<body>
+<p>The text at
+<span class
+<p>The text at <span class
+<p>The text at <span class
+<p>The text at <span class
+   </body>
+</html>
+the end of this sentence
+= "super">is in superscript</span>.</p> the end of this sentence
+= "sub">is in subscript</span>.</p> the end of this sentence
+= "shiftleft">is shifted left</span>.</p>
+the end of this sentence
+= "shiftright">is shifted right</span>.</p>
+</body>
+</html>
